@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Objective 2.1 - Multiple Rectangles</title>
+  
+<script type="text/javascript">
+	window.onload = function(){
+		var can = document.getElementById('rectangleCanvas');
+		var context = can.getContext('2d');
+		context.fillStyle =   "#08088A";  // dark blue
+		
+		for(i=0; i<=10000; i=i+10){
+			for(j=0; j<=15000; j=j+15){
+				context.fillRect(j, i, 10, 5);
+			}
+		}
+	}
+</script>
+</head>
+
+<body>
+<h3>Objective 2.1 - 1000x1000 rectangles</h3>
+<canvas id="rectangleCanvas" width="22528" height="20922"></canvas>
+</body>
+</html>
