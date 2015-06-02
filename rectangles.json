@@ -1,1 +1,0 @@
-rectangles = '[{"x" : 0, "y" : 0, "width" : 20, "height" : 10, "color" : "red"}, {"x" : 25, "y" : 0, "width" : 20, "height" : 10, "color" : "blue"}, {"x" : 0, "y" : 15, "width" : 20, "height" : 10, "color" : "blue"}, {"x" : 25, "y" : 15, "width" : 20, "height" : 10, "color" : "red"}]';
